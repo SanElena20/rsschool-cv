@@ -31,5 +31,10 @@ function sum(a,b) {
 }
 ~~~
 
+## INTERNSHIP EXPERIENCE
+ Bookkeeper/ Deputy chief accountant (Belarus), 
+ Apalon Apps LLC, 
+ 11/2014 – 12/2018 
+
 ## ADDITIONAL CAPABILITIES
 Bilingual: Russian/English (communicate)
