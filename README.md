@@ -1,1 +1,1 @@
-https://github.com/SanElena20/rsschool-cv/cv
+https://SanElena20.github.io/rsschool-cv/
