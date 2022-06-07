@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">My CV</div>
+      <div class="header-right">
+        <a class="active" href="#home">Skills</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+      </div>
+    </header>
+    <main class="main">
+      <div class="upper-section">
+        <div class="photo-section">
+          <img
+            src="./assets/main-qimg-65d6b0cc0ee92044d5a31d7137923df5-lq.jpeg"
+            alt="profile-photo"
+          />
+        </div>
+        <div class="info">
+          <h1 class="name-section">Alena Sankevich</h1>
+          <span class="job-title">Front-End Developer</span>
+        </div>
+        <div class="contacts-section">
+          <ul class="contacts-list">
+            <li>
+              <div class="contacts-list-name">Location</div>
+              <div class="contacts-info">Minsk, Belarus</div>
+            </li>
+            <li>
+              <div class="contacts-list-name">Telegram</div>
+              <div class="contacts-info">
+                <a href="https://t.me/j_snkvch">t.me/el_sank</a>
+              </div>
+            </li>
+            <li>
+              <div class="contacts-list-name">Email</div>
+              <div class="contacts-info">elenasankevich@gmail.com</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <section class="summary">
+        <div class="container">
+          <div class="title">
+            <h1>About me</h1>
+          </div>
+          <div class="description">
+            <p>
+              I am 18 y.o. , a second year student at the university now. I want
+              to become a front-end developer.
+            </p>
+            <p>
+              I am looking for a job in the company as a junior front-end
+              developer. I am ready to learn a lot and gain experience. I would
+              be happy to work with interesting projects.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="summary">
+        <div class="container">
+          <div class="items">
+            <div class="title">
+              <h2>Education</h2>
+            </div>
+            <div class="description">
+              <ul>
+                <li>
+                  Belarusian State University of Informatics and
+                  Radioelectronics - Information Systems and Technologies in
+                  Economics
+                </li>
+              </ul>
+
+              <b>Additional education</b>
+              <ul>
+                <li>Studying at Rolling Scopes School</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills">
+        <div class="container">
+          <div class="items">
+            <div class="title">
+              <h2>Skills</h2>
+            </div>
+
+            <div class="description">
+              <ul>
+                <li>HTML/CSS</li>
+                <li>Javascript (Beginner)</li>
+                <li>Git / GitHub</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="code">
+        <div class="container">
+          <div class="items">
+            <div class="title">
+              <h2>Code example</h2>
+            </div>
+
+            <div class="description">
+              <pre>
+ void Section_Admin(vector Vec_users, vector Vec_inf)
+	{
+		while (true) {
+					
+		int choice_admin = Menu_Admin();
+			switch (choice_admin){
+					
+			case 0:exit(0);
+					
+			case 1: if (Vec_inf.size() != 0) {
+			cout "Данные были внесены ) " pre endl; }
+					
+			else { Write_File_Full_inf(Vec_inf); }
+			break;
+					
+			case 2:Account_Management(Vec_users);
+			break;
+					
+			case 3:Section_Files(Vec_users, Vec_inf);
+			break;
+					
+			case 4:Data_Section(Vec_inf);
+			break;
+					
+			case 5: return;
+		}
+	}
+}
+				  </pre
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="summary">
+        <div class="container">
+          <div class="items">
+            <div class="title">
+              <h2>English</h2>
+            </div>
+
+            <div class="description">
+              <p>Intermediate</p>
+              <p>B1</p>
+              <p>
+                I have been learning English for about 4 years. I always have a
+                practice with native speakers.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
