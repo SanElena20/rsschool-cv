@@ -1,0 +1,137 @@
+.header {
+  overflow: hidden;
+  background-color: #d094e494;
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+  align-items: center;
+}
+
+.header a {
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: rgb(255, 252, 252);
+  color: black;
+}
+
+.header a.active {
+  background-color: rgb(170, 101, 205);
+  color: white;
+}
+
+.main {
+  padding: 90px;
+}
+
+.upper-section {
+  display: flex;
+}
+
+.photo-section img {
+  height: 300px;
+  width: 300px;
+}
+
+.info {
+  padding-left: 100px;
+}
+
+.name-section {
+  font-size: 60px;
+}
+
+.job-title {
+  font-size: 25px;
+  color: rgb(170, 101, 205);
+}
+
+.contacts-section {
+  margin-top: 10px;
+  margin-left: 80px;
+}
+
+.contacts-list {
+  list-style-type: none;
+  display: flex;
+  border-top: 3px solid #7d75c9;
+}
+
+.contacts-list-name {
+  font-size: 25px;
+  font-weight: 600;
+  padding-left: 50px;
+}
+
+.contacts-info,
+a {
+  color: #939393;
+  padding: 10px 30px;
+}
+
+.container {
+  padding: 20px 40px;
+}
+
+.title {
+  color: rgb(170, 101, 205);
+}
+
+.description {
+  padding-top: 10px;
+}
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+
+/* Сброс стилей */
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
